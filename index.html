@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Quiz 1</title>
+	<style>
+		h1{
+          text-align: center;
+          color: #cdd6f7;
+		}
+		body{
+			background-image: url(https://png.pngtree.com/background/20230522/original/pngtree-blue-and-purple-background-with-metallic-geometric-shapes-and-triangles-picture-image_2688165.jpg);
+			background-repeat: no-repeat;
+		   background-size: cover;
+	    	background-attachment: fixed;
+		}
+		p{
+			text-align: center;
+			color: #adcfe0;
+		}
+	</style>
+</head>
+<body>
+ <h1>Arithmetic Operator</h1>
+ <br> 
+
+ <script>
+    //declare all variables here 
+    var x = 10;
+    var y = 50; 
+    var z = x*y;
+
+
+ </script>
+ <p> The product of x and y is :</p>
+ <p id="display"></p>
+ <center><button type="button" class="btn btn-success" onclick = "document.getElementById('display').innerHTML = z;">Answer</button></center>
+
+<h1>Logical Operator</h1>
+
+ <script>
+ 	//declare all variables here
+      var a = 3; 
+</script>
+ <p> Is a >= to b?
+ <p id="display2"></p>
+<center><button type="button" class="btn btn-danger" onclick = "document.getElementById('display2').innerHTML = (x === 8);">True or False</button></center>
+
+<h1>Comparison Operator</h1>
+ <script>
+ 	//declare all variables here
+ 	var y = 20
+ 	var z = 15 
+ </script>
+<p> Is y greater than z?</p>
+<p id="display3"></p>
+<center><button type="button" class="btn btn-info" onclick = "document.getElementById('display3').innerHTML = (y > z);">True or False</button></center>
+
+</body>
+</html>
